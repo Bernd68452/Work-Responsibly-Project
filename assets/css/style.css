@@ -22,7 +22,7 @@ header > nav > ul > li {
   
 }
 span {
-  font-size: xx-large;
+  font-size: 2em;
 }
 
 li > a {
@@ -146,7 +146,7 @@ section:nth-of-type(4) > div {
 section:nth-of-type(4) > div > span {
   display: inline-block;
   margin-right: 10px;
-  font-size: xx-large;
+  font-size: 2em;
 }
 
 section > article {
