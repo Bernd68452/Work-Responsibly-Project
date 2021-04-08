@@ -19,6 +19,10 @@ section {
 header > nav > ul > li {
   display: inline-block;
   padding: 20px 10px;
+  
+}
+span {
+  font-size: xx-large;
 }
 
 li > a {
@@ -28,12 +32,14 @@ li > a {
 
 section:not(section:nth-of-type(3), section:nth-of-type(4)) {
   height: 100vh;
+  
 }
 
 section:nth-of-type(1) > h1 {
   font-size: 3em;
   color: #659d89;
   margin-top: 200px;
+  
 }
 
 section:nth-of-type(1) > p:nth-of-type(1) {
@@ -49,11 +55,13 @@ section:nth-of-type(1) > p:nth-of-type(1)::before {
   width: 20px;
   display: inline-block;
   vertical-align: middle;
+  
 }
 
 section:nth-of-type(1) > ul {
   font-size: 2em;
   text-align: right;
+
 }
 
 section:nth-of-type(1) > ul > li > a {
@@ -64,15 +72,18 @@ section:nth-of-type(1) > p:nth-of-type(2) {
   display: inline-block;
   margin-left: 15px;
   color: #333;
+  
 }
 
 section:nth-of-type(2) {
   color: #333;
+  
 }
 
 section:nth-of-type(2) > h2,
 section:nth-of-type(3) > h2 {
   padding-top: 60px;
+  
 }
 
 section:nth-of-type(2) > div {
@@ -135,6 +146,7 @@ section:nth-of-type(4) > div {
 section:nth-of-type(4) > div > span {
   display: inline-block;
   margin-right: 10px;
+  font-size: xx-large;
 }
 
 section > article {
